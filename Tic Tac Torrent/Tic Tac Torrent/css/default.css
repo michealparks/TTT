@@ -1,0 +1,229 @@
+﻿body {
+
+}
+
+#options-menu {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	background-color: #B38235;
+	color: #222;
+	transition: all 1000ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#options-menu #title {
+	font-weight: 500;
+	margin: -54px 0 0 0;
+}
+
+#options-menu h1 {
+	padding: 0 20px;
+}
+
+#options-menu #content {
+	position: absolute;
+	background-color: #00515C;
+	margin-top: 10px;
+	padding: 20px 0;
+	width: 100%;
+	height: 110px;
+}
+
+#options-menu #content .left-arrow {
+	position: absolute;
+	top: 35px;
+	left: 50px;
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-right: 40px solid #5B0400;
+	transition: all 200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#options-menu #content .right-arrow {
+	position: absolute;
+	top: 35px;
+	right: 50px;
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid #5B0400;
+	transition: all 200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#options-menu #content .box {
+	display: inline-block;
+	border: 5px solid #222;
+	margin: 0 -5px 0 0;
+}
+
+#options-menu #content .row:nth-child(1) {
+	margin-top: 0px;
+}
+
+#options-menu #content .row {
+	margin: -10px;
+}
+
+#options-menu #rules {
+	margin-top: 160px;
+}
+
+#options-menu p {
+	font-size: 28px;
+	padding: 10px 5px 10px 30px;
+	margin: 10px 20px;
+	display: inline-block;
+	background-color: #5B0400;
+	color: white;
+}
+
+#options-menu p .info {
+	padding: 4px 18px;
+	margin: 0 5px 0 40px;
+	background-color: #00515C;
+}
+
+#options-menu .choice-arrow {
+	left: 20px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #A61407;
+}
+
+#gameboard {
+	z-index: 1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #FCFBB8;
+}
+
+#begin-button {
+	position: absolute;
+	width: 40%;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	background-color: #B38235;
+	transition: all 200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#begin-button h3 {
+	display: inline-block;
+	margin: 20px;
+	padding: 10px 20px 10px 30px;
+	background-color: #5B0400;
+	color: #FFF;
+	font-size: 28px;
+}
+
+/* Game screen */
+#gameboard #grid-space {
+	margin-top: 15%;
+	transition: all 1000ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#gameboard .box {
+	z-index: 1;
+	display: inline-block;
+	border: 10px solid #222;
+	margin: 0 -10px 0 0;
+	opacity: 0;
+	transform: scale(2);
+	transition: all 1000ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#gameboard .row {
+	margin-top: -16px;
+}
+
+#gameboard .row .x, 
+#gameboard .row .o {
+	z-index: -10;
+	position: absolute;
+	padding: 5px;
+	opacity: 0;
+	transform: scale(1.3);
+	transition: all 600ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#gameboard .row .x line {
+	stroke: #5B0400;
+}
+
+#gameboard .row .o circle {
+	stroke: #00515C;
+	fill: #FCFBB8;
+}
+
+#current-player {
+	position: absolute;
+	width: 100%;
+	top: -15%;
+	font-size: 25px;
+	padding: 10px;
+	background-color: #222;
+	transition: all 1400ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#win-state {
+	background-color: #222;
+	padding: 10px 20px;
+	font-size: 40px;
+	color: #EEE;
+	position: absolute;
+	bottom: 0;
+	left: -35%;
+	transition: left 1400ms, transform 200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#new-game {
+	position: absolute;
+	padding: 10px 20px;
+	font-size: 50px;
+	top: 45%;
+	left:-50%;
+	background-color: #00515C;
+	color: white;
+	transition: left 1000ms, transform 200ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+	#options-menu {
+		margin: -20% 0 0 -20%;
+		height: 50%;
+		width: 40%;
+	}
+
+	#options-menu #arrow2 {
+		left: 286px;
+	}
+}
+
+@media screen and (-ms-view-state: filled) {
+	#options-menu {
+		height: 45%;
+	}
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+	#options-menu {
+		top: 40%;
+		width: 60%;
+		height: 40%;
+		margin: -20% 0 0 -30%;
+	}
+}
