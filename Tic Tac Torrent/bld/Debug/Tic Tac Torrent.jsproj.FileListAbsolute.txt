@@ -1,0 +1,13 @@
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Debug\resources.pri
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Debug\AppxManifest.xml
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Debug\Tic Tac Torrent.build.appxrecipe
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\priconfig.xml.intermediate
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\layout.resfiles.intermediate
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\resources.resfiles.intermediate
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\pri.resfiles.intermediate
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\priconfig.xml
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\layout.resfiles
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\resources.resfiles
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\pri.resfiles
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\LanguageQualifiers.txt
+c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\ProjectArchitectures.txt

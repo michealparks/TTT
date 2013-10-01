@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tic_Tac_Torrent</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Tic_Tac_Torrent references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/jquery-1.8.0-windows8-ready.js"></script>
+    <script src="/js/default.js"></script>
+</head>
+<body>
+
+    <section id="options-menu">
+        <h1 id="title">Tic Tac Torrent.</h1>
+        <h1>Board Size</h1>
+        
+        <span id="content">
+            <span class="left-arrow" id="grid-smaller"></span>
+            <center>
+            <span id="grid-space"></span>
+            </center>
+            <span class="right-arrow" id="grid-larger"></span>
+        </span>
+
+        <div id="begin-button"><h3>Begin.</h3></div>
+        
+        <!-- <h1 id="rules">Rules</h1>
+        <p id="normal-mode"><span class="choice-arrow" id="arrow1"></span>Normal<span class='info'>?</span></p> -->
+        <!-- <p id="roman-mode"><span class="choice-arrow" id="arrow2"></span>Roman<span class='info'>?</span></p> -->
+    </section>
+    
+    <section id="gameboard">
+        <center>
+        <div id="current-player"></div>
+        <div id="win-state"></div>
+        <div id="grid-space"></div>
+        <div id="new-game">New Game</div>
+        </center>
+    </section>
+
+<script type="text/template" id="row-template"><div class="row"></div></script>
+<script type="text/template" id="box-template"><div class="box"></div></script> 
+<script type="text/template" id="x-template"><span class="x">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+    <line stroke-width="7" stroke-miterlimit="10" x1="0" y1="0" x2="40" y2="40"/>
+    <line stroke-width="7" stroke-miterlimit="10" x1="40" y1="0" x2="0" y2="40"/>
+    </svg>
+</span></script>
+<script type="text/template" id="o-template"><span class="o">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+    <circle stroke-width="7" stroke-miterlimit="10" cx="20" cy="20" r="20"/>
+    </svg>
+</span></script>
+</body>
+</html>

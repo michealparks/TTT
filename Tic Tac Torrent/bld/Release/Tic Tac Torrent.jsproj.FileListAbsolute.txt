@@ -1,0 +1,9 @@
+C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Release\resources.pri
+C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Release\AppxManifest.xml
+C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Release\Tic Tac Torrent.build.appxrecipe
+C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Release\priconfig.xml
+C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Release\layout.resfiles
+C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Release\resources.resfiles
+C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Release\pri.resfiles
+C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Release\LanguageQualifiers.txt
+C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Release\ProjectArchitectures.txt
