@@ -2,7 +2,7 @@
 <StoreAssociation xmlns="http://schemas.microsoft.com/appx/2010/storeassociation">
   <Publisher>CN=8AB51DC0-3CFC-42D6-9EC2-77EB0292BE5D</Publisher>
   <NamespacePrefix>30385MichealParks</NamespacePrefix>
-  <PublisherDisplayName>Micheal Parks</PublisherDisplayName>
+  <PublisherDisplayName>Raedix</PublisherDisplayName>
   <GeneratePackageHash>http://www.w3.org/2001/04/xmlenc#sha256</GeneratePackageHash>
   <SupportedLocales>
     <Language Code="af" InMinimumRequirementSet="false" />
@@ -67,6 +67,12 @@
     <Language Code="el" InMinimumRequirementSet="true" />
     <Language Code="el-gr" InMinimumRequirementSet="true" />
     <Language Code="en" InMinimumRequirementSet="true" />
+    <Language Code="en-011" InMinimumRequirementSet="true" />
+    <Language Code="en-014" InMinimumRequirementSet="true" />
+    <Language Code="en-018" InMinimumRequirementSet="true" />
+    <Language Code="en-021" InMinimumRequirementSet="true" />
+    <Language Code="en-029" InMinimumRequirementSet="true" />
+    <Language Code="en-053" InMinimumRequirementSet="true" />
     <Language Code="en-au" InMinimumRequirementSet="true" />
     <Language Code="en-bz" InMinimumRequirementSet="true" />
     <Language Code="en-ca" InMinimumRequirementSet="true" />
@@ -88,6 +94,8 @@
     <Language Code="en-vn" InMinimumRequirementSet="true" />
     <Language Code="en-za" InMinimumRequirementSet="true" />
     <Language Code="es" InMinimumRequirementSet="true" />
+    <Language Code="es-019" InMinimumRequirementSet="true" />
+    <Language Code="es-419" InMinimumRequirementSet="true" />
     <Language Code="es-ar" InMinimumRequirementSet="true" />
     <Language Code="es-bo" InMinimumRequirementSet="true" />
     <Language Code="es-cl" InMinimumRequirementSet="true" />
@@ -120,7 +128,11 @@
     <Language Code="fil-latn" InMinimumRequirementSet="false" />
     <Language Code="fil-ph" InMinimumRequirementSet="false" />
     <Language Code="fr" InMinimumRequirementSet="true" />
+    <Language Code="fr-011" InMinimumRequirementSet="true" />
     <Language Code="fr-015" InMinimumRequirementSet="true" />
+    <Language Code="fr-021" InMinimumRequirementSet="true" />
+    <Language Code="fr-029" InMinimumRequirementSet="true" />
+    <Language Code="fr-155" InMinimumRequirementSet="true" />
     <Language Code="fr-be" InMinimumRequirementSet="true" />
     <Language Code="fr-ca" InMinimumRequirementSet="true" />
     <Language Code="fr-cd" InMinimumRequirementSet="true" />
@@ -343,16 +355,20 @@
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
+    <MainPackageIdentityName>30385MichealParks.Abacist</MainPackageIdentityName>
+    <MainPackageIdentityName>30385MichealParks.AstralThrow</MainPackageIdentityName>
     <MainPackageIdentityName>30385MichealParks.BattleoftheWits</MainPackageIdentityName>
     <MainPackageIdentityName>30385MichealParks.BLKJCK</MainPackageIdentityName>
     <MainPackageIdentityName>30385MichealParks.Clade</MainPackageIdentityName>
     <MainPackageIdentityName>30385MichealParks.ConnectMore</MainPackageIdentityName>
+    <MainPackageIdentityName>30385MichealParks.RingofFire</MainPackageIdentityName>
+    <MainPackageIdentityName>30385MichealParks.Spectro</MainPackageIdentityName>
     <MainPackageIdentityName>30385MichealParks.SquareSays</MainPackageIdentityName>
   </AccountPackageIdentityNames>
   <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/6ff30fda-b8b0-4974-a8c0-124cb4b03ec5">
     <PackageInfo>
       <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.0.0.1</PackageMaxArchitectureVersion>
+      <PackageMaxArchitectureVersion>1.0.0.2</PackageMaxArchitectureVersion>
     </PackageInfo>
   </PackageInfoList>
 </StoreAssociation>

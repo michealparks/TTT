@@ -7,10 +7,10 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="30385MichealParks.TicTacTorrent" Version="1.0.0.2" Publisher="CN=8AB51DC0-3CFC-42D6-9EC2-77EB0292BE5D" ProcessorArchitecture="neutral" />
+  <Identity Name="30385MichealParks.TicTacTorrent" Version="1.0.0.7" Publisher="CN=8AB51DC0-3CFC-42D6-9EC2-77EB0292BE5D" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>Tic Tac Torrent</DisplayName>
-    <PublisherDisplayName>Micheal Parks</PublisherDisplayName>
+    <PublisherDisplayName>Raedix</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -23,19 +23,38 @@
   <Applications>
     <Application Id="App" StartPage="default.html">
       <VisualElements DisplayName="Tic Tac Torrent" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Tic Tac Torrent" ForegroundText="dark" BackgroundColor="#FCD5A8">
-        <DefaultTile ShowName="allLogos" />
+        <DefaultTile ShowName="allLogos" WideLogo="images\wid-logo.png" />
         <SplashScreen Image="images\splashscreen.png" />
       </VisualElements>
     </Application>
   </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
   <Dependencies>
-    <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20602" />
+    <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20789" />
   </Dependencies>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.SdkInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.UserInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.Advertisement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.AdEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.AdPlacement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.AdErrorEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.WinRT.RendererOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MicrosoftAdvertising.Shared.JSONWrapper" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="VisualStudio" Version="11.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Express 2012 for Windows 8" />
-    <build:Item Name="OperatingSystem" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.60315.1" />
+    <build:Item Name="OperatingSystem" Version="6.3.9431.0 (winmain_bluemp.130615-1214)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.60610.1" />
+    <build:Item Name="MSAdvertisingJS" Version="6.1" />
     <build:Item Name="MakePri.exe" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
   </build:Metadata>
 </Package>

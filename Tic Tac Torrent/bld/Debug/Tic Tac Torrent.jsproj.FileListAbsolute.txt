@@ -11,3 +11,4 @@ c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac T
 c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\pri.resfiles
 c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\LanguageQualifiers.txt
 c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\ProjectArchitectures.txt
+C:\Users\Micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Debug\MicrosoftAdvertising.winmd

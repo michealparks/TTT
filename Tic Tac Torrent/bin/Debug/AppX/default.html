@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html data-ng-app="ticTacTorrent">
 <head>
     <meta charset="utf-8" />
     <title>Tic_Tac_Torrent</title>
@@ -11,53 +11,102 @@
 
     <!-- Tic_Tac_Torrent references -->
     <link href="/css/default.css" rel="stylesheet" />
-    <script src="/js/jquery-1.8.0-windows8-ready.js"></script>
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/app.js"></script>
     <script src="/js/default.js"></script>
-</head>
-<body>
 
-    <section id="options-menu">
+    <!-- Microsoft Advertising required references -->
+    <script src="/MSAdvertisingJS/ads/ad.js" ></script>
+</head>
+<body data-ng-controller="gameCtrl">
+    <div id="myAd" style="position: absolute; top: 0; left: 50%; margin-left:-364px; width: 728px; height: 90px; z-index: 1000" 
+     data-win-control="MicrosoftNSJS.Advertising.AdControl" 
+     data-win-options="{applicationId: '99997de0-cc35-4dd7-b27c-e37fda4d3c1b', adUnitId: '146003'}"></div>
+    <section id="options-menu" data-ng-class="{shown : data.showMenu}">
         <h1 id="title">Tic Tac Torrent.</h1>
         <h1>Board Size</h1>
         
         <span id="content">
-            <span class="left-arrow" id="grid-smaller"></span>
+            <span class="arrow-box left" data-ng-click="resizeGrid(0)">
+                <span class="l-arrow"></span>
+            </span>
             <center>
-            <span id="grid-space"></span>
+            <span id="grid-space">
+                <div class="row" data-ng-repeat="items in data.grid">
+                    <div class="box {{'s'+data.size}}" data-ng-repeat="items in data.grid"></div>
+                </div>
+            </span>
             </center>
-            <span class="right-arrow" id="grid-larger"></span>
+            <span class="arrow-box right" data-ng-click="resizeGrid(1)">
+                <span class="r-arrow"></span>
+            </span>
         </span>
 
-        <div id="begin-button"><h3>Begin.</h3></div>
-        
-        <!-- <h1 id="rules">Rules</h1>
-        <p id="normal-mode"><span class="choice-arrow" id="arrow1"></span>Normal<span class='info'>?</span></p> -->
-        <!-- <p id="roman-mode"><span class="choice-arrow" id="arrow2"></span>Roman<span class='info'>?</span></p> -->
+        <div id="begin-button" data-ng-click="changeViews(false)"><h3>Begin.</h3></div>
     </section>
     
-    <section id="gameboard">
+    <section id="gameboard" data-ng-class="{shown : data.showBoard}">
         <center>
-        <div id="current-player"></div>
-        <div id="win-state"></div>
-        <div id="grid-space"></div>
-        <div id="new-game">New Game</div>
+        <div id="grid-space">
+            <span id="pl1" data-ng-class="{shown : plTurn(0)}">Player 1</span>
+            <span id="pl2" data-ng-class="{shown : plTurn(1)}">Player 2</span>
+            <div 
+            class="row"
+            data-ng-repeat="items in data.grid">
+                <div
+                class="box s{{data.size}}"
+                data-ng-class="{shown : data.showBoard}"
+                data-ng-click="playerMove($index, $parent.$index)"
+                data-ng-repeat="items in data.grid">
+                    <span
+                    class="x s{{data.size}}"
+                    data-ng-class="{shown : selected(0, $index, $parent.$index)}">
+                        <svg
+                        x="0px" y="0px"
+                        viewBox="0 0 40 40"
+                        enable-background="new 0 0 40 40">
+                        <line
+                        stroke-width="7"
+                        stroke-miterlimit="10"
+                        x1="0" y1="0" x2="40" y2="40"></line>
+                        <line
+                        stroke-width="7"
+                        stroke-miterlimit="10"
+                        x1="40" y1="0" x2="0" y2="40"></line>
+                        </svg>
+                    </span>
+                    <span
+                    class="o s{{data.size}}"
+                    data-ng-class="{shown : selected(1, $index, $parent.$index)}">
+                        <svg
+                        x="0px" y="0px"
+                        viewBox="0 0 40 40" enable-background="new 0 0 40 40">
+                        <circle
+                        stroke-width="7" stroke-miterlimit="10"
+                        cx="20" cy="20" r="20">
+                        </circle>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div 
+            id="win-state" 
+            data-ng-class="{shown : data.gameWin}">
+                Player {{data.winPlayer+1}} wins!
+            </div>
+            <div
+            id="draw-state"
+            data-ng-class="{shown : data.gameDraw}">
+                The result is a draw!
+            </div>
+        </div>
+        <div 
+        id="new-game"
+        data-ng-class="{shown : data.gameWin || data.gameDraw}"
+        data-ng-click="changeViews(true)">
+            New Game
+        </div>
         </center>
     </section>
-
-<script type="text/template" id="row-template"><div class="row"></div></script>
-<script type="text/template" id="box-template"><div class="box"></div></script> 
-<script type="text/template" id="x-template"><span class="x">
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
-    <line stroke-width="7" stroke-miterlimit="10" x1="0" y1="0" x2="40" y2="40"/>
-    <line stroke-width="7" stroke-miterlimit="10" x1="40" y1="0" x2="0" y2="40"/>
-    </svg>
-</span></script>
-<script type="text/template" id="o-template"><span class="o">
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
-    <circle stroke-width="7" stroke-miterlimit="10" cx="20" cy="20" r="20"/>
-    </svg>
-</span></script>
 </body>
 </html>

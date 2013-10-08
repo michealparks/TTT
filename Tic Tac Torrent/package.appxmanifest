@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="30385MichealParks.TicTacTorrent" Version="1.0.0.2" Publisher="CN=8AB51DC0-3CFC-42D6-9EC2-77EB0292BE5D" />
+  <Identity Name="30385MichealParks.TicTacTorrent" Version="1.0.0.7" Publisher="CN=8AB51DC0-3CFC-42D6-9EC2-77EB0292BE5D" />
   <Properties>
     <DisplayName>Tic Tac Torrent</DisplayName>
-    <PublisherDisplayName>Micheal Parks</PublisherDisplayName>
+    <PublisherDisplayName>Raedix</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -16,9 +16,12 @@
   <Applications>
     <Application Id="App" StartPage="default.html">
       <VisualElements DisplayName="Tic Tac Torrent" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Tic Tac Torrent" ForegroundText="dark" BackgroundColor="#FCD5A8">
-        <DefaultTile ShowName="allLogos" />
+        <DefaultTile ShowName="allLogos" WideLogo="images\wid-logo.png" />
         <SplashScreen Image="images\splashscreen.png" />
       </VisualElements>
     </Application>
   </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
 </Package>

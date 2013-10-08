@@ -5,68 +5,206 @@
     <WindowsUser>Micheal</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>1FD69230AF511DC8A73E464BCF65DA1191F974F67E182F5152FA789982D08799</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>30385MichealParks.TicTacTorrent_1.0.0.2_neutral__cyzzft7dpfbjr</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>3FC9F9A7F7B272D87B17935605B5BD45EFF472DDCB92AF9AE167CB8F0D1042F1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>30385MichealParks.TicTacTorrent_1.0.0.7_neutral__cyzzft7dpfbjr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>30385MichealParks.TicTacTorrent_cyzzft7dpfbjr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>30385MichealParks.TicTacTorrent</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=8AB51DC0-3CFC-42D6-9EC2-77EB0292BE5D</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.2</RegisteredVersion>
+    <RegisteredVersion>1.0.0.7</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-06-29T04:16:59.726</Modified>
+      <Modified>2013-10-07T05:23:09.465</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\default.html">
-      <PackagePath>default.html</PackagePath>
-      <Modified>2013-06-27T04:02:31.080</Modified>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-06-29T16:51:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\logo.png">
-      <PackagePath>images\logo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-06-27T05:54:40.232</Modified>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\ad.js">
+      <PackagePath>MSAdvertisingJS\ads\ad.js</PackagePath>
+      <Modified>2013-06-29T16:49:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.png">
-      <PackagePath>images\smalllogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-06-27T05:55:55.152</Modified>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\bootstrap.js">
+      <PackagePath>MSAdvertisingJS\ads\bootstrap.js</PackagePath>
+      <Modified>2013-06-29T16:49:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\splashscreen.png">
-      <PackagePath>images\splashscreen.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-06-27T06:02:07.780</Modified>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\ormma.js">
+      <PackagePath>MSAdvertisingJS\ads\ormma.js</PackagePath>
+      <Modified>2013-06-29T16:49:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\storelogo.png">
-      <PackagePath>images\storelogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-06-27T05:55:40.505</Modified>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\bootstrap.html">
+      <PackagePath>MSAdvertisingJS\ads\bootstrap.html</PackagePath>
+      <Modified>2013-06-29T16:48:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\default.js">
-      <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-06-28T01:19:16.985</Modified>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\MSASettingsPanel.html">
+      <PackagePath>MSAdvertisingJS\ads\MSASettingsPanel.html</PackagePath>
+      <Modified>2013-06-29T16:48:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\jquery-1.8.0-windows8-ready.js">
-      <PackagePath>js\jquery-1.8.0-windows8-ready.js</PackagePath>
-      <Modified>2012-10-02T15:33:46.000</Modified>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.12x12.png">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.12x12.png</PackagePath>
+      <Modified>2013-06-29T16:48:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.16x16.png">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.16x16.png</PackagePath>
+      <Modified>2013-06-29T16:48:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml</PackagePath>
+      <Modified>2013-06-29T16:48:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\css\priv.css">
+      <PackagePath>css\priv.css</PackagePath>
+      <Modified>2013-09-30T00:20:09.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-06-28T01:19:06.432</Modified>
+      <Modified>2013-10-07T03:39:09.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-10-07T03:38:39.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\privacy.html">
+      <PackagePath>privacy.html</PackagePath>
+      <Modified>2013-08-10T22:13:19.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:21:32.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\logo.scale-140.png">
+      <PackagePath>images\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:20:50.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\logo.scale-180.png">
+      <PackagePath>images\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:20:13.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\logo.scale-80.png">
+      <PackagePath>images\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:21:46.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:33:51.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.scale-140.png">
+      <PackagePath>images\smalllogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:33:39.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.scale-180.png">
+      <PackagePath>images\smalllogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:33:17.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.scale-80.png">
+      <PackagePath>images\smalllogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:34:09.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.targetsize-16.png">
+      <PackagePath>images\smalllogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:35:15.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.targetsize-256.png">
+      <PackagePath>images\smalllogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:34:28.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.targetsize-32.png">
+      <PackagePath>images\smalllogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:35:06.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.targetsize-48.png">
+      <PackagePath>images\smalllogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:34:55.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:53:34.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\splashscreen.scale-140.png">
+      <PackagePath>images\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:53:15.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\splashscreen.scale-180.png">
+      <PackagePath>images\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:52:05.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:36:08.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\storelogo.scale-140.png">
+      <PackagePath>images\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:35:55.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\storelogo.scale-180.png">
+      <PackagePath>images\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:35:41.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\wid-logo.scale-100.png">
+      <PackagePath>images\wid-logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:55:07.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\wid-logo.scale-140.png">
+      <PackagePath>images\wid-logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:54:56.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\wid-logo.scale-180.png">
+      <PackagePath>images\wid-logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:54:19.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\wid-logo.scale-80.png">
+      <PackagePath>images\wid-logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-07T04:55:19.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\angular.min.js">
+      <PackagePath>js\angular.min.js</PackagePath>
+      <Modified>2013-10-07T03:28:59.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\app.js">
+      <PackagePath>js\app.js</PackagePath>
+      <Modified>2013-10-08T04:29:26.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-10-07T04:56:40.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-06-29T04:16:59.562</Modified>
+      <Modified>2013-10-07T05:23:09.388</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
       <Name>Microsoft.WinJS.1.0</Name>
-      <Version>1.0.9200.20602</Version>
+      <Version>1.0.9200.20789</Version>
       <Architecture>Neutral</Architecture>
-      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20789</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
     </ResolvedSDKReference>
   </ItemGroup>
