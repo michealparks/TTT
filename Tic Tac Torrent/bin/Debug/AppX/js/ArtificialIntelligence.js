@@ -23,6 +23,7 @@ function ArtificialIntelligence(side)
 
             return true;
         }
+
         
         /* For more variation, return a random move on the first move, as the first move doesn't
          * matter (since perfect play results in a draw).
@@ -83,8 +84,7 @@ function ArtificialIntelligence(side)
             return value; // Draw.
 
         var bestMove;
-        var otherSide = side === '1' ? '0' : '1';
-        console.log(otherSide);
+        var otherSide = side === '0' ? '1' : '0';
 
         for (var i = 0; i < moves.length; i++) {
             var move = moves[i];
