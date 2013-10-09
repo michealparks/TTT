@@ -81,8 +81,10 @@
     <Content Include="images\wid-logo.scale-80.png" />
     <Content Include="js\angular.min.js" />
     <Content Include="js\app.js" />
+    <Content Include="js\ArtificialIntelligence.js" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
+    <Content Include="js\Rules.js" />
     <Content Include="privacy.html" />
     <None Include="Tic Tac Torrent_StoreKey.pfx" />
     <None Include="Package.StoreAssociation.xml" />
