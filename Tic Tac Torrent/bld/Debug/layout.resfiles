@@ -27,5 +27,6 @@ js\angular.min.js
 js\app.js
 js\ArtificialIntelligence.js
 js\default.js
+js\Grid.js
 js\Rules.js
 privacy.html
