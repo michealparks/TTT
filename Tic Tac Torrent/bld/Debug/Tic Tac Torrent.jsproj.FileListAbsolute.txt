@@ -12,3 +12,17 @@ c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac T
 c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\LanguageQualifiers.txt
 c:\users\micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bld\Debug\ProjectArchitectures.txt
 C:\Users\Micheal\documents\visual studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bin\Debug\resources.pri
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bin\Debug\AppxManifest.xml
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bin\Debug\Tic Tac Torrent.build.appxrecipe
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\priconfig.xml
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\layout.resfiles
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\resources.resfiles
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\pri.resfiles
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\LanguageQualifiers.txt
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\ProjectArchitectures.txt
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\priconfig.xml.intermediate
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\layout.resfiles.intermediate
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\resources.resfiles.intermediate
+C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bld\Debug\pri.resfiles.intermediate

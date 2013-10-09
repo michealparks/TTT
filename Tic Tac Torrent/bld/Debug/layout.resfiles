@@ -25,5 +25,7 @@ images\wid-logo.scale-180.png
 images\wid-logo.scale-80.png
 js\angular.min.js
 js\app.js
+js\ArtificialIntelligence.js
 js\default.js
+js\Rules.js
 privacy.html

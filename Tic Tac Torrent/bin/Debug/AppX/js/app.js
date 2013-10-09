@@ -18,6 +18,7 @@
 				players    : [
 
 				],
+				artificialIntelligence : new ArtificialIntelligence(1),
 				grid : [
 					[-1, -1, -1],
 					[-1, -1, -1],
@@ -61,9 +62,18 @@
 			if (test === $scope.data.curPlayer) return true; else return false;
 		};
 
+		$scope.aimove = function () {
+		    move = $scope.data.artificialIntelligence.calculateMove($scope.data.grid)
+            console.log(move)
+		    $scope.playerMove(parseInt(move[0]), parseInt(move[1]))
+
+		};
+
 		$scope.playerMove = function(x, y){
-			if ($scope.data.grid[x][y] === -1 && $scope.data.gameActive){
-				$scope.data.grid[x][y] = $scope.data.curPlayer;
+			if ($scope.data.grid[x][y] == -1 && $scope.data.gameActive){
+			    $scope.data.grid[x][y] = $scope.data.curPlayer;
+
+			    console.log(x, y);
 
 				checkStatus(
 					Logic.gridState(
@@ -77,6 +87,8 @@
 				if ($scope.data.curPlayer === 1) $scope.data.curPlayer = 0;
 				else                             $scope.data.curPlayer = 1;
 			}
+
+
 		};
 
 		// Updates the view to show X's and O's if grid elements have been selected.
