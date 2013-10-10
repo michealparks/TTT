@@ -130,6 +130,9 @@
     <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\js\Grid.js">
+      <PackagePath>js\Grid.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\js\Rules.js">
       <PackagePath>js\Rules.js</PackagePath>
     </AppxPackagedFile>
