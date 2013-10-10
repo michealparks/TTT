@@ -3,28 +3,23 @@
  * The implementation uses the minimax algorithm with alpha-beta pruning.
  */
 
-function ArtificialIntelligence(side)
-{
+function ArtificialIntelligence(side){
+    "use-strict";
+
     this.infinity = 99;
     this.side = side;
 
-    this.calculateMove = function (grid)
-    {
-        function isGridEmpty(grid)
-        {
-            for (var y = 0; y < grid.length; y++)
-            {
-                for (var x = 0; x < grid[y].length; x++)
-                {
-                    if (grid[y][x] !== '-1') // Cell not empty?
+    this.calculateMove = function(grid){
+        function isGridEmpty(grid){
+            for (var y = 0, len = grid.length; y < len; y++){
+                for (var x = 0, len2 = grid[y].length; x < len2; x++){
+                    if (grid[y][x] !== -1) // Cell not empty?
                         return false;
                 }
             }
-
             return true;
         }
 
-        
         /* For more variation, return a random move on the first move, as the first move doesn't
          * matter (since perfect play results in a draw).
          */
@@ -51,11 +46,9 @@ function ArtificialIntelligence(side)
      * Explanation of why 'beta' is initially set to positive infinity:
      * As no move was found yet, no move is worse than a previously made move.
      */
-    this._search = function (grid, side, height, alpha, beta)
-    {
+    this._search = function(grid, side, height, alpha, beta){
         var value = this._nodeValue(grid, side);
-        if (value !== 0)
-        {
+        if (value !== 0){
             /* No need to look further, the game will be decided at this point if both sides play
              * perfectly.
              */
@@ -84,9 +77,9 @@ function ArtificialIntelligence(side)
             return value; // Draw.
 
         var bestMove;
-        var otherSide = side === '0' ? '1' : '0';
+        var otherSide = side === 0 ? 1 : 0;
 
-        for (var i = 0; i < moves.length; i++) {
+        for (var i = 0, len = moves.length; i < len; i++) {
             var move = moves[i];
 
             this._makeMove(grid, move, side);
@@ -127,11 +120,9 @@ function ArtificialIntelligence(side)
              * Note that, initially, 'beta' is infinity, effectively disabling alpha-beta pruning
              * for the first node.
              */
-            if (beta <= alpha)
-                break;
+            if (beta <= alpha) break;
 
-            if (alphaCandidate > alpha)
-            {
+            if (alphaCandidate > alpha){
                 /* The game tree tested (the tree of the current node or move) led to less loss
                  * than the others tested so far.
                  */
@@ -140,8 +131,7 @@ function ArtificialIntelligence(side)
                 /* If we're at the top of the game tree, we should keep track of which move is the
                  * best, as we will return the best move to the initial caller of this function.
                  */
-                if (height === 0)
-                    bestMove = move;
+                if (height === 0) bestMove = move;
             }
         }
 
@@ -161,51 +151,39 @@ function ArtificialIntelligence(side)
      * distinguishable from a draw (zero). In other words, for return values other than a draw
      * (zero), 'abs(value) - 9' * must never equal zero.
      */
-    this._nodeValue = function (grid, side)
-    {
-
+    this._nodeValue = function(grid, side){
 
         var gameResult = Rules.checkGameOver(grid);
-        if (gameResult === null || gameResult['draw'])
-        {
+        if (gameResult === null || gameResult['draw']){
             // Game is unfinished or drawn.
             return 0;
-        }
-        else if (gameResult['winner'] === side)
-        {
+        } else if (gameResult['winner'] === side){
             // 'side' wins when their play is perfect.
             return this.infinity;
-        }
-        else
-        {
+        } else {
             // 'side' loses when their opponent's play is perfect.
             return -this.infinity;
         }
     };
 
-    this._generateMoves = function (grid)
+    this._generateMoves = function(grid)
     {
         var moves = [];
-        for (var y = 0; y < grid.length; y++)
-        {
-            for (var x = 0; x < grid[y].length; x++)
-            {
-                if (grid[y][x] == '-1') // Cell empty?
-                    moves.push([x, y]);
+        for (var y = 0, len = grid.length; y < len; y++){
+            for (var x = 0, len2 = grid[y].length; x < len2; x++){
+                // Red flag : why is -1 a string?
+                if (grid[y][x] === -1) moves.push([x, y]); // Cell empty?
             }
         }
         return moves;
     };
 
-    this._makeMove = function (grid, move, side)
-    {
+    this._makeMove = function(grid, move, side){
         grid[move[1]][move[0]] = side;
-        
     };
 
-    this._undoMove = function (grid, move)
-    {
-        grid[move[1]][move[0]] = '-1';
+    this._undoMove = function (grid, move){
+        grid[move[1]][move[0]] = -1;
     };
 
  

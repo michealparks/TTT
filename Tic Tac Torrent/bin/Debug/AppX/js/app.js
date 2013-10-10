@@ -12,6 +12,7 @@
 				gameActive : false,
 				gameWin    : false,
 				gameDraw   : false,
+				playComp   : true,
 				curPlayer  : 0,
 				winPlayer  : -1,
 				numWin     : 3,
@@ -59,21 +60,18 @@
 
 		$scope.plTurn = function(test){
 			if (!$scope.data.gameActive) return false;
-			if (test == $scope.data.curPlayer) return true; else return false;
+			if (test === $scope.data.curPlayer) return true; else return false;
 		};
 
 		$scope.aimove = function () {
-			$scope.data.curPlayer = 1;
-		    move = $scope.data.artificialIntelligence.calculateMove($scope.data.grid)
-		    console.log(move)
+			var move = $scope.data.artificialIntelligence.calculateMove($scope.data.grid);
 		    $scope.playerMove(move[1], move[0]);
-
+		    console.log (typeof move[1], typeof move[0]);
 		};
 
 		$scope.playerMove = function(x, y){
-			if ($scope.data.grid[x][y] == -1 && $scope.data.gameActive){
+			if ($scope.data.grid[x][y] === -1 && $scope.data.gameActive){
 			    $scope.data.grid[x][y] = $scope.data.curPlayer;
-
 
 				checkStatus(
 					Logic.gridState(
@@ -84,24 +82,28 @@
 					)
 				);
 
-				if ($scope.data.curPlayer == 1) $scope.data.curPlayer = 0;
-				else $scope.aimove();
+				if ($scope.data.curPlayer === 1) {
+					$scope.data.curPlayer = 0;
+				} else {
+					$scope.data.curPlayer = 1;
+					if ($scope.data.playComp) $timeout(function(){$scope.aimove();}, 800);
+				}
 			}
 
 		};
 
 		// Updates the view to show X's and O's if grid elements have been selected.
 		$scope.selected = function(type, x, y){
-			if ($scope.data.grid[x][y] == 0 && type == 0) return true;
-			if ($scope.data.grid[x][y] == 1 && type == 1) return true;
+			if ($scope.data.grid[x][y] === 0 && type === 0) return true;
+			if ($scope.data.grid[x][y] === 1 && type === 1) return true;
 			return false;
 		};
 
 		// Checks to see if the win state has been satisfied.
 		var checkStatus = function(winState){
-			if (winState == -1) return;
+			if (winState === -1) return;
 			else {
-				if (winState == -2) $scope.data.gameDraw = true;
+				if (winState === -2) $scope.data.gameDraw = true;
 				else {
 					$scope.data.gameWin   = true;
 					$scope.data.winPlayer = winState;

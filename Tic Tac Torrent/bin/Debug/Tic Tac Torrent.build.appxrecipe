@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>WINDOWS8</Machine>
-    <WindowsUser>Adam</WindowsUser>
+    <Machine>MICHEAL-PC</Machine>
+    <WindowsUser>Micheal</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
@@ -40,112 +40,131 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml">
       <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\css\priv.css">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\css\priv.css">
       <PackagePath>css\priv.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\css\default.css">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\default.html">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\privacy.html">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\privacy.html">
       <PackagePath>privacy.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\logo.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\logo.scale-140.png">
       <PackagePath>images\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\logo.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\logo.scale-180.png">
       <PackagePath>images\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\logo.scale-80.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\logo.scale-80.png">
       <PackagePath>images\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\smalllogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\smalllogo.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.scale-140.png">
       <PackagePath>images\smalllogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\smalllogo.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.scale-180.png">
       <PackagePath>images\smalllogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\smalllogo.scale-80.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.scale-80.png">
       <PackagePath>images\smalllogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\smalllogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.targetsize-16.png">
       <PackagePath>images\smalllogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\smalllogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.targetsize-256.png">
       <PackagePath>images\smalllogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\smalllogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.targetsize-32.png">
       <PackagePath>images\smalllogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\smalllogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\smalllogo.targetsize-48.png">
       <PackagePath>images\smalllogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\splashscreen.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\splashscreen.scale-140.png">
       <PackagePath>images\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\splashscreen.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\splashscreen.scale-180.png">
       <PackagePath>images\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\storelogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\storelogo.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\storelogo.scale-140.png">
       <PackagePath>images\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\storelogo.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\storelogo.scale-180.png">
       <PackagePath>images\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\wid-logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\wid-logo.scale-100.png">
       <PackagePath>images\wid-logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\wid-logo.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\wid-logo.scale-140.png">
       <PackagePath>images\wid-logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\wid-logo.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\wid-logo.scale-180.png">
       <PackagePath>images\wid-logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\images\wid-logo.scale-80.png">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\images\wid-logo.scale-80.png">
       <PackagePath>images\wid-logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\js\angular.min.js">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\angular.min.js">
       <PackagePath>js\angular.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\js\app.js">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\app.js">
       <PackagePath>js\app.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\js\ArtificialIntelligence.js">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\ArtificialIntelligence.js">
       <PackagePath>js\ArtificialIntelligence.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\js\default.js">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\js\Grid.js">
-      <PackagePath>js\Grid.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\js\Rules.js">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\js\Rules.js">
       <PackagePath>js\Rules.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adam\Documents\GitHub\TTT\Tic Tac Torrent\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Micheal\Documents\Visual Studio 2012\Projects\Tic Tac Torrent\Tic Tac Torrent\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
       <Name>Microsoft.WinJS.1.0</Name>
-      <Version>1.0.8514.0</Version>
+      <Version>1.0.9200.20789</Version>
       <Architecture>Neutral</Architecture>
-      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20789</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
     </ResolvedSDKReference>
   </ItemGroup>
